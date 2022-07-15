@@ -8,10 +8,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/banner.css">
-
+  <link rel="stylesheet" href="assets/css/carrossel.css">
 </head>
 
 <body>
@@ -45,6 +46,40 @@
     <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
   </section>
 
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+
+    
+    <div class="swiper">
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="assets/img/Livros/ApacheKafka.svg" alt="Livros sobre apache kafka e spring boot da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/Liderança.svg" alt="Livro sobre liderança em design da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/Javascript.svg" alt="Livro sobre javascript assertivo da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/Guia Front-end.svg" alt="Livro sobre guia de front-end da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/Portugol.svg" alt="Livro sobre portugol da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/Acessibilidade.svg" alt="Livro sobre acessibilidade da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/Angular.svg" alt="Livro sobre angular da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/Arquitetura.svg" alt="Livro sobre arquitetura da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/Construct2.svg" alt="Livro sobre construct 2 da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/Gestão.svg" alt="Livro sobre gestão da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/Gestão2.svg" alt="Livro sobre gestão 2 da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/MEAN.svg" alt="Livro sobre mean da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/MetricasAgeis.svg" alt="Livro sobre metricas ageis da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/Nodejs.svg" alt="Livro sobre nodejs da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/ReactNative.svg" alt="Livro sobre reactnative da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/Tuning.svg" alt="Livro sobre tuning da alurabooks"></div>
+        <div class="swiper-slide"><img src="assets/img/Livros/UX.svg" alt="Livro sobre ux da alurabooks"></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
