@@ -42,7 +42,7 @@
 }
 
 .descricao__titulo-livro {
-  color: var(--cor-texto-azul);
+  color: var(--azul);
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;

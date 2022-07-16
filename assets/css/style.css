@@ -2,6 +2,7 @@
 @import url('./banner.css');
 @import url('./carrossel.css');
 @import url('./topicos.css');
+@import url('./contato.css');
 
 :root {
   --cor-de-fundo: #EBECEE;
@@ -9,7 +10,7 @@
   --laranja: #EB9B00;
   --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
   --fonte-principal: 'Poppins', sans-serif;
-  --cor-texto-azul: #002F52;
+  --azul: #002F52;
 }
 
 body {
