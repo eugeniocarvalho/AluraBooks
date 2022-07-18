@@ -98,6 +98,25 @@
     display: flex;
   }
 
+  .opcoes__botao {
+    display: none;
+  }
+
+  label .opcoes__item {
+    cursor: pointer;
+  }
+
+  .opcoes__lista-menu {
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: -400%;
+    width: auto;
+  }
+
+  .opcoes__botao:checked ~ .opcoes__lista-menu {
+    top: 100%;
+  }
+
   .opcoes__item {
     padding: 0 1rem;
     text-transform: uppercase;
