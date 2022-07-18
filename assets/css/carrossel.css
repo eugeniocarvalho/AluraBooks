@@ -97,5 +97,43 @@
     width: 40%;
     margin: 3rem auto 2.5rem auto;
   }
+}
+
+@media screen and (min-width: 1728px) {
+  .carrossel__titulo {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+  .carrossel__container {
+    display: flex;
+    margin: 0 20rem 2rem 20rem;
+    align-items: center;
+  }
+
+  .swiper-pagination {
+    margin: 1rem 0;
+  }
+
+  .swiper {
+    width: 50%;
+  }
+
+  .card {
+    width: 65%;
+    margin-left: 5rem;
+  }
+
+  .descricao {
+    margin-right: 2rem;
+  }
+
+  .descricao__titulo {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .descricao__texto {
+    font-size: 16px;
+  }
 
 }
