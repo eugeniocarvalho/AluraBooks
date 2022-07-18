@@ -67,7 +67,7 @@
   display: none;
 }
 
-.opcoes {
+.opcoes, .container__texto {
   display: none;
 }
 
@@ -129,5 +129,26 @@
 
   .container__imagem-transparente {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .cabecalho {
+    padding: 0 4rem;
+  }
+
+  .opcoes {
+    margin-right: auto;
+    margin-left: 4.2rem;
+  }
+  .container__texto {
+    display: block;
+  }
+
+  .container__link {
+    align-items: center;
+    color: var(--preto);
+    display: flex;
+    text-decoration: none;
   }
 }
