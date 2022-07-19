@@ -75,6 +75,20 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 425px) {
+  .card__descricao {
+    flex-direction: column-reverse;
+  }
+
+  .card__avaliacao {
+    margin-top: 1rem;
+  }
+
+  .botoes__ancora {
+    padding: .8rem 1.2rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .carrossel__titulo {
     font-size: 26px;
